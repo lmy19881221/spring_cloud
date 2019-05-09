@@ -12,16 +12,19 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @RestController
 public class ServiceProviderApplication {
+
     public static void main(String[] args) {
         SpringApplication.run( ServiceProviderApplication.class, args );
     }
 
     @Value("${server.port}")
     String port;
+    @Value("${param}")
+    String param;
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi " + name + " ,i am from port:" + port;
+        return "hi " + name + " ,i am from port:" + port +",param:"+param;
     }
 
 }

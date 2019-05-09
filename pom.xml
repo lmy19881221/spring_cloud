@@ -12,6 +12,8 @@
         <module>service-provider</module>
         <module>service-feign</module>
         <module>service-gateway</module>
+        <module>config-server</module>
+        <module>service-turbine</module>
     </modules>
     <packaging>pom</packaging>
     <name>spring_cloud</name>
