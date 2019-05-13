@@ -18,6 +18,4 @@ public class ServiceTurbineApplication {
         SpringApplication.run( ServiceTurbineApplication.class, args );
     }
 
-
-
 }

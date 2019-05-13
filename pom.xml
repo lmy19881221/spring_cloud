@@ -14,6 +14,8 @@
         <module>service-gateway</module>
         <module>config-server</module>
         <module>service-turbine</module>
+        <module>service-ribbon</module>
+        <module>zipkin-server</module>
     </modules>
     <packaging>pom</packaging>
     <name>spring_cloud</name>
@@ -61,15 +63,5 @@
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
 </project>
