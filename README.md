@@ -11,3 +11,6 @@ service-ribbon 负载均衡 基于restTemplate
 service-turbine 断路器监控  
 service-gateway 路由网关  
 
+
+
+curl -X POST http://localhost:8762/actuator/bus-refresh 进行刷新配置文件
