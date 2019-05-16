@@ -15,7 +15,6 @@
         <module>config-server</module>
         <module>service-turbine</module>
         <module>service-ribbon</module>
-        <module>zipkin-server</module>
     </modules>
     <packaging>pom</packaging>
     <name>spring_cloud</name>

@@ -34,5 +34,4 @@ public class ServiceFeignApplication {
         return registrationBean;
     }
 
-
 }
