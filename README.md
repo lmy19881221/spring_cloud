@@ -10,7 +10,6 @@ service-ribbon 负载均衡 基于restTemplate
 service-turbine 断路器监控  
 service-gateway 路由网关  
 
-
-Zipkin Server，下载地址：https://dl.bintray.com/openzipkin/maven/io/zipkin/java/zipkin-server/  
+zipkin-server，下载地址：https://dl.bintray.com/openzipkin/maven/io/zipkin/java/zipkin-server/  
 
 curl -X POST http://localhost:8762/actuator/bus-refresh 进行刷新配置文件
